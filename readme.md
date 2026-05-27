@@ -1,3 +1,5 @@
+![Hello World](./img/Animation.gif)
+
 # About 
 
 The ExSMG is a Excel Add-in assist the business to fastly build the management application based on the advances of Microsoft Excel. It's use javascript to handle the worksheet data, process strings, and interact with HTTP through various built-in functions. Additionally, it offers several utility functions to simplify tasks. While an ERP system is large and complex, making it challenging to modify and adapt for smaller tasks, the ExSMG is a Swiss knife, more adaptable and easier to adjust for smaller tasks based on business demand.
@@ -60,7 +62,7 @@ Currently, the project has only guide files and plug-in release files. The sourc
 # Features
 ## <div align="center">COMMAND</div>
 
-### <div align='right'>Default Settings</div>
+### Default Settings
 
 > *Create the default setting table is called **config***
 
@@ -79,14 +81,14 @@ Currently, the project has only guide files and plug-in release files. The sourc
 
 
 
-### <div align="right">Worksheet Selection</div>
+### Worksheet Selection
 > *Display a dialog for worksheet selection.*
 
 - On ribbon bar: **[ExSMG] > { COMMAND } > [Sheet Selection]**
 
 - Shortcut keys: **Ctrl+Tab**
 
-### <div align="right">Command Dialog</div>
+### Command Dialog
     
 > *Display a dialog for selecting commands for execution as configured in the **"config"** table. Once the user selects a command description in the dialog, the add-in will locate and execute the corresponding callback function defined in the JavaScript file.*  
 
@@ -136,7 +138,7 @@ This function allow directly execute the SQL command:
 - *When one thread is executing, any attempts to start another thread will be ignored. This thread doesn't interrupt any excel operation.*
 - *SQL commands were listed in table will be executed sequentially row by row.*
 
-### <div align="right">SQL Default Setting</div>
+### SQL Default Setting
 > *Create a table that includes the complete default configurations for SQL execution tasks.* 
 
 1. Active any cell in the worksheet.
@@ -172,27 +174,27 @@ This function allow directly execute the SQL command:
 
 
 
-### <div align="right">Execute SQL</div>
+### Execute SQL
 > *Create a thread to execute the sql command.*
 - [Ribbon] > [ExSMG] > {SQL EXECUTION} > [SQL Execute]
 
-### <div align="right">STOP Execution</div>
+### STOP Execution
 > *Immediately stop the sql execution thread.*
 - [Ribbon] > [ExSMG] > {SQL EXECUTION} > [Stop Execution]
 
 ## <div align="center">DEBUG</div>
 
-### <div align="right">SQL Default Setting</div>
+### SQL Default Setting
 >*Display the debug panel for error monitoring.* 
 
 - On ribbon bar: [ExSMG] > {DEBUG} > [Show Debug Panel]
 
 ## <div align="center">WORKSHEET FILES</div>
-### <div align="right">Show Worksheet Files</div>
+### Show Worksheet Files
 >*Display the worksheet file manager.* 
 - On ribbon bar: [ExSMG] > {WORKSHEET FILES} > [Show Worksheet Files]
 
-### <div align="right">Create Worksheet GUID</div>
+### Create Worksheet GUID
 > *Create GUID on current active worksheet.* 
 - On ribbon bar: [ExSMG] > {WORKSHEET FILES} > [Create Worksheet GUID]
 
