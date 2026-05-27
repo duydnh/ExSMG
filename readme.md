@@ -1,4 +1,4 @@
-![Hello World](./img/Animation.gif)
+![Hello World](./imgs/Animation.gif)
 
 # About 
 
